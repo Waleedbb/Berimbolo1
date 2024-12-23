@@ -1,0 +1,39 @@
+.about-us {
+  background-color: #4A4A58;
+  padding: 0 20px 60px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #E67E22; 
+  font-weight: bold;
+}
+
+.about-us-content p {
+  font-size: 1.2rem;
+  color: #F9F9F9; 
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #E67E22;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.about-us-button:hover {
+  background-color: #27AE60; 
+  transform: scale(1.05);
+}
